@@ -6,11 +6,18 @@ import { api } from "./api/rmApi"
 import style from './App.module.css'
 import styleCard from './components/Card.module.css'
 
+import "leaflet-defaulticon-compatibility";
+import 'leaflet/dist/leaflet.css';
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
+
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 function App() {
   const [show, setShow] = useState("")
   const [data, setData] = useState([])
   const [page, setPage] = useState("")
   const [name, setName] = useState("")
+  const position = [-25.424860448678242, -49.27232921860062]
 
 
   useEffect(() => {
@@ -85,8 +92,18 @@ function App() {
      {show === "map" &&
         <>
       <h2>Mapa</h2>
-          <div>
-              mapa aqui
+          <div>           
+              <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{width: "50vw", height: "50vh"}}>
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <Marker position={position}>
+                  <Popup>
+                    <a target='_blank'>Senai Celso Charuri</a>
+                  </Popup>
+                </Marker>
+              </MapContainer> 
           </div>
          </>
       }
