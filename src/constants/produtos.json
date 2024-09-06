@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Caneca",
+    "desc": "Caneca Ariana Grande Personalizavel",
+    "value": "100.00",
+    "image": "../../public/imgs/CanecaAri.webp"
+  },
+  {
+    "id": 2,
+    "name": "Caneca",
+    "desc": "Caneca Amy Winehouse",
+    "value": "2200.00",
+    "image": "../../public/imgs/amyWinehouse.webp"
+  },
+  {
+    "id": 3,
+    "name": "Caneca",
+    "desc": "Caneca Beyonce",
+    "value": "2200.00",
+    "image": "../../public/imgs/Beyonce.webp"
+  },
+  {
+    "id": 4,
+    "name": "Caneca",
+    "desc": "Caneca Harry Style",
+    "value": "2200.00",
+    "image": "../../public/imgs/harryStyles.webp"
+  },
+  {
+    "id": 5,
+    "name": "Caneca",
+    "desc": "Caneca Katy Perry",
+    "value": "2200.00",
+    "image": "../../public/imgs/KatyPerry.webp"
+  },
+  {
+    "id": 6,
+    "name": "Caneca",
+    "desc": "Caneca Lady Gaga",
+    "value": "2200.00",
+    "image": "../../public/imgs/ladyGaga.webp"
+  },
+  {
+    "id": 7,
+    "name": "Caneca",
+    "desc": "Caneca Neymar",
+    "value": "2200.00",
+    "image": "../../public/imgs/neymar.webp"
+  },
+  {
+    "id": 8,
+    "name": "Caneca",
+    "desc": "Caneca Tom Holland",
+    "value": "2200.00",
+    "image": "../../public/imgs/tomHolland.webp"
+  },
+  {
+    "id": 9,
+    "name": "Caneca",
+    "desc": "Caneca Zendaya",
+    "value": "2200.00",
+    "image": "../../public/imgs/zendaya.webp"
+  }
+]
