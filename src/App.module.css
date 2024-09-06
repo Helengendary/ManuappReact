@@ -17,5 +17,11 @@
   justify-content: center;
   gap: 1vh;
   padding: 10px;
-  background-color: rgb(47, 47, 47);
+  background-color: white;
+  color: rgb(78, 76, 76);
+}
+
+.config {
+  display: flex;
+  flex-wrap: wrap;
 }

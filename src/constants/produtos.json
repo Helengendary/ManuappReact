@@ -2,64 +2,82 @@
   {
     "id": 1,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Ariana Grande Personalizavel",
     "value": "100.00",
-    "image": "../../public/imgs/CanecaAri.webp"
+    "image": "../../public/imgs/CanecaAri.webp",
+    "status": true
   },
   {
     "id": 2,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Amy Winehouse",
     "value": "2200.00",
-    "image": "../../public/imgs/amyWinehouse.webp"
+    "image": "../../public/imgs/amyWinehouse.webp",
+    "status": false
   },
   {
     "id": 3,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Beyonce",
     "value": "2200.00",
-    "image": "../../public/imgs/Beyonce.webp"
+    "image": "../../public/imgs/Beyonce.webp",
+    "status": true
   },
   {
     "id": 4,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Harry Style",
     "value": "2200.00",
-    "image": "../../public/imgs/harryStyles.webp"
+    "image": "../../public/imgs/harryStyles.webp",
+    "status": false
   },
   {
     "id": 5,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Katy Perry",
     "value": "2200.00",
-    "image": "../../public/imgs/KatyPerry.webp"
+    "image": "../../public/imgs/KatyPerry.webp",
+    "status": true
   },
   {
     "id": 6,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Lady Gaga",
     "value": "2200.00",
-    "image": "../../public/imgs/ladyGaga.webp"
+    "image": "../../public/imgs/ladyGaga.webp",
+    "status": false
   },
   {
     "id": 7,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Neymar",
     "value": "2200.00",
-    "image": "../../public/imgs/neymar.webp"
+    "image": "../../public/imgs/neymar.webp",
+    "status": true
   },
   {
     "id": 8,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Tom Holland",
     "value": "2200.00",
-    "image": "../../public/imgs/tomHolland.webp"
+    "image": "../../public/imgs/tomHolland.webp",
+    "status": false
   },
   {
     "id": 9,
     "name": "Caneca",
+    "categoria": "Caneca",
     "desc": "Caneca Zendaya",
     "value": "2200.00",
-    "image": "../../public/imgs/zendaya.webp"
+    "image": "../../public/imgs/zendaya.webp",
+    "status": true
   }
 ]
