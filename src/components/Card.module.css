@@ -1,11 +1,29 @@
 .cards {
     background-color: rgb(6, 1, 51);
     margin: 2%;
-    width: 250px;
+    width: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    z-index: 0;
+    justify-content: space-evenly;
+}
+
+.cardsModal {
+    background-color: rgb(6, 1, 51);
+    margin: 2%;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    z-index: 999;
+    justify-content: space-evenly;
+    position: absolute;
+    border: 1px solid white;
 }
 
 .bolinhaVermelha {
@@ -20,6 +38,16 @@
 
 .bolinhaVerde {
     background-color: green;
+    border-radius:20%;
+    font-size: 20px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.bolinhaCinza {
+    background-color: gray;
     border-radius:20%;
     font-size: 20px;
     display: flex;

@@ -1,10 +1,13 @@
 import produtos from './constants/produtos.json'
 import {Card} from './components/Card'
 import style from './App.module.css'
+import App from './App'
 
 function Produto() {
     return (
         <>
+          <App/>
+
           <h2>Showroom de produtos</h2>
             <div className={style.config}>
             {produtos.map((item) => {
