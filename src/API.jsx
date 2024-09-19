@@ -3,10 +3,7 @@ import {CardAPI} from './components/CardAPI'
 import { api } from "./api/rmApi"
 import App from './App'
 import style from './App.module.css'
-import styleCard from './components/Card.module.css'
 import Modal from './components/Modal'
-import { map } from 'leaflet'
-
 
 function API() {
     const [data, setData] = useState([])
@@ -33,6 +30,7 @@ function API() {
     <>
     {modal !== undefined && <Modal data={data[modal]} close = {() => setModal()}/>}
     <App/>
+        <div className={style.rick}>
           <h2>Rick and Morty API</h2>
             <div>
                <input style={{padding: '1%', margin: '1%', fontSize: '20px'}} type="text" placeholder="1/43" value={page} onChange={(event) => setPage(event.target.value)}
@@ -48,6 +46,7 @@ function API() {
               )
            })}
             </div>
+        </div>
        </>)
 }
 

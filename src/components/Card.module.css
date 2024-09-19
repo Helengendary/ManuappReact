@@ -24,6 +24,11 @@
     justify-content: space-evenly;
     position: absolute;
     border: 1px solid white;
+    height: auto;
+}
+
+.cardsModal button {
+    margin: 2% 0;
 }
 
 .bolinhaVermelha {

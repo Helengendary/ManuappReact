@@ -9,6 +9,27 @@
   color: rgb(78, 76, 76);
 }
 
+.headerFake {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  z-index: 9999;
+  top: 0;
+}
+
+.rick{
+  margin-top: 150px;
+}
+
+.prods {
+  margin-top: 150px;
+  color: rgb(78, 76, 76);
+}
+
+.prods h2 {
+  margin: 20px;
+}
+
 .botaun {
   color: black;
   text-decoration: none;
@@ -48,4 +69,22 @@
 
 .mapa {
   height: 500px;
+}
+
+.mapas {
+  margin-top: 150px;
+  color: rgb(78, 76, 76);
+}
+
+.mapas h2 {
+  margin: 2%;
+}
+
+.graficos {
+  margin-top: 150px;
+  color: rgb(78, 76, 76);
+}
+
+.graficos h2 {
+  margin: 2%;
 }
